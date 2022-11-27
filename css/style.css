@@ -160,5 +160,6 @@ h3 {
     /* grid: 200px 800px / 300px 300px; */ /* Rows and Columns*/
 
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
   }
 }
