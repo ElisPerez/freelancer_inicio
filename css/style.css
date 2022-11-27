@@ -152,9 +152,13 @@ h3 {
 }
 
 /* SERVICIOS */
-.servicios {
-  display: grid;
-  /* grid-template-rows: 200px 800px; */ /* Rows */
-  /* grid-template-columns: 300px 300px; */ /* Columns */
-  grid: 200px 800px / 300px 300px; /* Rows and Columns*/
+@media (min-width: 768px) {
+  .servicios {
+    display: grid;
+    /* grid-template-rows: 200px 800px; */ /* Rows */
+    /* grid-template-columns: 300px 300px; */ /* Columns */
+    /* grid: 200px 800px / 300px 300px; */ /* Rows and Columns*/
+
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
