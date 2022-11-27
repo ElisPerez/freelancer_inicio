@@ -150,3 +150,11 @@ h3 {
   display: flex;
   align-items: center; /* Alineación VERTICAL (flex-direction: row (ROW es por default, NO es necesario indicar el flex-direction: row) */
 }
+
+/* SERVICIOS */
+.servicios {
+  display: grid;
+  /* grid-template-rows: 200px 800px; */ /* Rows */
+  /* grid-template-columns: 300px 300px; */ /* Columns */
+  grid: 200px 800px / 300px 300px; /* Rows and Columns*/
+}
