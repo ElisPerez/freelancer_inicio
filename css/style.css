@@ -237,11 +237,14 @@ h3 {
 }
 
 .formulario legend {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 1rem;
   text-align: center;
   font-size: 1.8rem;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 2rem;
   color: var(--primario);
 }
 
